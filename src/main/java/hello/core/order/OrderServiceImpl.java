@@ -8,6 +8,7 @@ import hello.core.member.MemberRepository;
 import hello.core.member.MemoryMemberRepository;
 
 public class OrderServiceImpl  implements OrderService{
+    //dependency injection
 
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
